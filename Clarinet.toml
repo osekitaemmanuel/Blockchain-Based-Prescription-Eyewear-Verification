@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.insurance-claim]
+path = 'contracts/insurance-claim.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.prescription-issuance]
 path = 'contracts/prescription-issuance.clar'
 clarity_version = 2
